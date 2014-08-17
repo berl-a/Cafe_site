@@ -129,7 +129,7 @@ div.slider {
 	width: 900px;
 	margin: auto;
 }
-div.slider p {
+div.slider div.paragraph {
 	display: inline-block;
 	width: 400px;
 	height: 150px;
@@ -166,6 +166,6 @@ div.images img.higher {
 	opacity: 1;
 	-webkit-transform: rotateZ(0);
 	        transform: rotateZ(0);
-	-webkit-transition: all 2s ease;
-	        transition: all 2s ease;
+	-webkit-transition: all 1.5s ease;
+	        transition: all 1.5s ease;
 }

@@ -2,11 +2,13 @@ $(document).ready(function() {
 	
 	var nextHighlightedImage = 1;
 	var highlightNext = function() {
-		//console.log(nextHighlightedImage);
 		
 		$('div.images img:not(:nth-of-type(' + (nextHighlightedImage + 1) + '))').removeClass('higher');
 		$('div.images img:nth-of-type(' + (nextHighlightedImage + 1) + ')').addClass('higher');
 		
+		$('div.slider div.paragraph p').fadeOut(750, function () {
+			$('div.slider div.paragraph p').text('sadf').fadeIn(750);
+		});
 		
 		if (nextHighlightedImage < 2) nextHighlightedImage++;
 		else nextHighlightedImage = 0;
