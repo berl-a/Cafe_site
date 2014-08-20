@@ -55,7 +55,7 @@ body {
 body>div.wrapper {
 	width: 1000px;
 	margin: 50px auto;
-	padding: 40px 0;
+	padding: 40px 0 20px;
 	border-radius: 10px;
 	background-color: rgba(216, 141, 92, 0.95);
 }
@@ -220,6 +220,14 @@ div.block div.paragraph {
 div.block img {
 	display: inline-block;
 	border-radius: 10px;
+}
+div.twitter {
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	border-radius: 10px;
+}
+a.twitter-timeline {
 }
 footer {
 	max-width: 100%;
