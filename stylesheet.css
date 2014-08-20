@@ -49,7 +49,7 @@ img:hover {
 	        transition: 1s all ease;
 }
 body {
-	background: url(res/back.png);
+	background: url(res/part_back.png);
 /*	overflow-x: hidden;*/
 }
 body>div.wrapper {
