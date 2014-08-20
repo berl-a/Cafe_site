@@ -38,16 +38,6 @@
 h1, h1, h1, h4, h5, h6, h7, p {
 	cursor: default;
 }
-img {
-	-webkit-transition: 1s all ease;
-	        transition: 1s all ease;
-}
-img:hover {
-	-webkit-filter: brightness(1.1) contrast(1.1);
-	        filter: brightness(1.1) contrast(1.1);
-	-webkit-transition: 1s all ease;
-	        transition: 1s all ease;
-}
 body {
 	background: url(res/part_back.png);
 /*	overflow-x: hidden;*/
@@ -210,16 +200,22 @@ div.block p {
 	padding: 0;
 }
 div.block img {
+	display: inline-block;
 	margin: 0;
 	margin-left: 25px;
+	border-radius: 10px;
+	-webkit-transition: 1s all ease;
+	        transition: 1s all ease;
+}
+div.block:hover img {
+	-webkit-filter: brightness(1.1) contrast(1.1);
+	        filter: brightness(1.1) contrast(1.1);
+	-webkit-transition: 1s all ease;
+	        transition: 1s all ease;
 }
 div.block div.paragraph {
 	margin: 0;
 	margin-left: 25px;
-}
-div.block img {
-	display: inline-block;
-	border-radius: 10px;
 }
 div.twitter {
 	width: 400px;
