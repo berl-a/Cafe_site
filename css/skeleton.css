@@ -15,17 +15,13 @@ h1, h1, h1, h4, h5, h6, h7, p {
 	cursor: default;
 }
 body {
-	background: url(../res/backs/back.png);
+	background: url(../res/backs/part_back.png);
 /*	overflow-x: hidden;*/
 }
-body>div.wrapper {
-	width: 1000px;
-	margin: 50px auto;
-	padding: 40px 0;
-	border-radius: 10px;
-	background-color: rgba(216, 141, 92, 0.95);
-}
 nav {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
 	max-width: 100%;
 	min-width: 1000px;
 	height: 60px;
@@ -35,18 +31,26 @@ nav {
 	text-align: center;
 }
 nav>div.wrapper {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
 	width: 1000px;
 	height: 60px;
 	margin: auto;
 	vertical-align: top;
+	background-color: transparent;
 }
 nav div.wrapper div {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
 	position: relative;
 	display: inline-block;
 	height: 40px;
 	width: 19%;
 	top: 10px;
-	margin-left: 0.83%;
+	margin-left: 0.3%;
+	margin-right: 0.3%;
 	text-align: center;
 	background-color: #cc7e4c;
 	border-radius: 5px;
@@ -94,9 +98,77 @@ nav div.wrapper div a {
 	line-height: 40px;
 	font-size: 30px;
 }
+body>div.wrapper {
+	width: 1000px;
+	margin: 50px auto;
+	padding: 40px 0 20px;
+	border-radius: 10px;
+	background-color: rgba(216, 141, 92, 0.95);
+}
 .wrapper h1 {
 	margin-bottom: 20px;
 	text-align: center;
 	font-size: 3.5em;
 	color: #6b4228;
+}
+footer {
+	max-width: 100%;
+	min-width: 1000px;
+	height: 60px;
+	background-color: rgba(162, 100, 61, 0.95);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+footer div.wrapper {
+	width: 1000px;
+	height: 60px;
+	padding-top: 20px;
+	margin: auto;
+}
+footer div.wrapper p {
+	text-align: right;
+	vertical-align: middle;
+	font-size: 1.2em;
+	color: #4a2b18;
+	text-shadow: 0 1px #bc7242;
+}
+footer div.wrapper p a {
+	color: lightgray;
+	text-decoration: none;
+	-webkit-animation: 3s link_on_hover infinite;
+	        animation: 3s link_on_hover infinite;
+	-webkit-animation-play-state: paused;
+	        animation-play-state: paused;
+}
+footer div.wrapper p a:hover {
+	-webkit-animation-play-state: running;
+	        animation-play-state: running;
+}
+@-webkit-keyframes link_on_hover {
+	30% {
+		color: skyblue;
+	}
+	50% {
+		color: violet;
+	}
+	70% {
+		color: lightgreen;
+	}
+	100% {
+		color: skyblue;
+	}
+}
+@keyframes link_on_hover {
+	20% {
+		color: skyblue;
+	}
+	50% {
+		color: violet;
+	}
+	70% {
+		color: lightgreen;
+	}
+	100% {
+		color: skyblue;
+	}
 }

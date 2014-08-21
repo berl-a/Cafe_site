@@ -19,14 +19,14 @@ var highlightNextSlide = function() {
 	$('div.images img:nth-of-type(' + (nowHighlightingImage + 1) + ')').addClass('higher');
 	$('div.images img:not(:nth-of-type(' + (nowHighlightingImage + 1) + '))').removeClass('higher');
  
-	$('div.slider div.paragraph p').fadeOut(750, function () {
-		$('div.slider div.paragraph p').text(sliderTexts[nowHighlightingImage]).fadeIn(750);
+	$('div.slider div.paragraph p').fadeOut(1000, function () {
+		$('div.slider div.paragraph p').text(sliderTexts[nowHighlightingImage]).fadeIn(1000);
 	});
 };
 
 $(document).ready(function() {
 	loadSliderTexts();
-	setInterval(highlightNextSlide, 5000);
+	setInterval(highlightNextSlide, 6000);
 });
 
 
