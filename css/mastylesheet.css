@@ -1,0 +1,17 @@
+div#map {
+	width: 800px;
+	height: 500px;
+	margin: 0 auto 15px;
+	border: 2px solid #e97;
+	border-radius: 15px;
+}
+div.wrapper {
+	text-align: center;
+}
+div.wrapper content a {
+	margin-top: 20px;
+	font-size: 1.4em;
+	color: #4a2b18;
+	text-shadow: 0 1px #bc7242;
+	text-decoration: underline;
+}

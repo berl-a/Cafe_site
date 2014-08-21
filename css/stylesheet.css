@@ -64,7 +64,7 @@ div.block {
 	width: 900px;
 	margin: 20px auto;
 	padding: 25px 0;
-	background: url("res/backs/bold_stripes_back.png");
+	background: url("../res/backs/bold_stripes_back.png");
 	border-radius: 20px;
 	overflow: hidden;
 }
