@@ -11,7 +11,7 @@
 	vertical-align: middle;
 	font-family: Titania, Carnevalee,  Woodenni, Arial, Verdana, sans-serif;
 }
-h1, h1, h1, h4, h5, h6, h7, p {
+h1, h1, h1, h4, h5, h6, h7, p, li {
 	cursor: default;
 }
 body {

@@ -14,10 +14,14 @@ function initializeMap() {
 	
 	var mapOptions = {
 		zoom: 19,
-		center: cafeLatLng
+		center: cafeLatLng,
+		mapTypeControlOptions: {
+		  mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+		}
 	};
 	
 	map = new google.maps.Map(document.getElementById('map'),mapOptions);
+	
 	directionsDisplay.setMap(map);
 	
 	marker = new google.maps.Marker({
