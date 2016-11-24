@@ -1,3 +1,23 @@
 {
- "Coffee": {"Dark": "<img src=http://lorempixel.com/350/350/nature/5><p>Daaark<p>", "Light": "<img src=http://lorempixel.com/350/350/nature/1><p>Like a sun</p>", "Strong": "<img src=http://lorempixel.com/350/350/abstract/2><p>Strong like me!</p>", "Vanilla": "<img src=http://lorempixel.com/350/350/abstract/3><p>Soo sweet! Post it to instagram anyway!</p>"}, "Tea": {"Black": "Very black", "Green": "<img src=http://lorempixel.com/350/350/abstract/4><p>Like a grass</p>", "White": "<img src=http://lorempixel.com/350/340/abstract/1><p>Like a milk!</p>", "Sauasep": "<img src=http://lorempixel.com/350/345/abstract/1><p>It smells really good!</p>", "Grey": "<img src=http://lorempixel.com/350/340/abstract/2><p>Grey tea! Awesome!</p>"}, "Sweeties": {"Candy": "<img src=http://lorempixel.com/350/355/abstract/1><p>So sweet!</p>", "Mushrooms": "<img src=http://lorempixel.com/350/355/abstract/2><p>Just from the ground</p>", "Steak": "<img src=http://lorempixel.com/350/355/abstract/3><p>Tastes perfect with green tea!</p>", "Cookie": "<img src=http://lorempixel.com/355/355/abstract/1><p>So tasty!</p>"}
+
+ "Coffee": {
+	"Dark": "<img src=../res/menu_photos/c_0.jpg><p>Daaark<p>",
+	 "Light": "<img src=../res/menu_photos/c_1.jpg><p>Like a sun</p>", 
+	"Strong": "<img src=../res/menu_photos/c_2.jpg><p>Strong like me!</p>",
+	 "Vanilla": "<img src=../res/menu_photos/c_0.jpg><p>Soo sweet! Post it to instagram anyway!</p>"
+},
+ "Tea": {
+	"Black": "<img src=../res/menu_photos/t_0.jpg><p>Very black</p>", 
+	"Green": "<img src=../res/menu_photos/t_1.jpg><p>Like a grass</p>",
+	 "White": "<img src=../res/menu_photos/t_2.jpg><p>Like a milk!</p>",
+	 "Sauasep": "<img src=../res/menu_photos/t_0.jpg><p>It smells really good!</p>", 
+	"Grey": "<img src=../res/menu_photos/t_1.jpg><p>Grey tea! Awesome!</p>"
+},
+ "Sweeties": {
+	"Candy": "<img src=../res/menu_photos/s_0.jpg><p>So sweet!</p>", 
+	"Mushrooms": "<img src=../res/menu_photos/s_2.jpg><p>Just from the ground</p>", 
+	"Steak": "<img src=../res/menu_photos/s_1.jpg><p>Tastes perfect with green tea!</p>",
+	 "Cookie": "<img src=../res/menu_photos/s_0.jpg><p>So tasty!</p>"
+}
+
 }
